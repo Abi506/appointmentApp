@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 100px;
+}
+.appointment-card-container {
+  background-color: white;
+  width: 1000px;
+  padding: 30px;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+.appointment-section-container {
+  display: flex;
+  flex-direction: row;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.heading {
+  color: #171f46;
+}
+.common {
+  color: #b5b7c4;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.common-inputs {
+  margin-top: 5px;
+  width: 250px;
+  height: 30px;
+}
+.button-container {
+  padding-top: 15px;
+}
+.button-styles {
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  border-width: 0px;
+  background-color: #8b5cf6;
+  color: white;
+}
+.bg-image-container {
+  display: flex;
+  flex-direction: column;
+}
+.bg-image {
+  width: 300px;
+  align-self: center;
+}
+.separator {
+  width: 500px;
+  margin-top: 18px;
+}
+.separator-2 {
+  width: 400px;
+  margin-top: 80px;
+}
+.appointment-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 850px;
+}
+.starred-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.starred-button-styles {
+  color: #9796f0;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9796f0;
+  padding: 10px;
+
+  border-radius: 20px;
+}
+.appointment-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
